@@ -88,8 +88,8 @@ if __name__ == '__main__':
         subplot.legend(loc=1)
 
     # 係数の値を表示
-    print "Table of the coefficients"
-    print df_ws.transpose()
+    print("Table of the coefficients")
+    print(df_ws.transpose())
     fig.show()
 
     # トレーニングセットとテストセットでの誤差の変化を表示
